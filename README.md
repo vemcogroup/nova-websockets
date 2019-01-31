@@ -39,4 +39,4 @@ php artisan migrate
 
 ## Usage
 
-You can now use the tool via tthe new menu item called "Websockets" 
+You can now use the tool via the new menu item called "Websockets" 
