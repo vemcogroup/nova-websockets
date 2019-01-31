@@ -1,5 +1,5 @@
 {
-    "name": "vemcogroup/websockets",
+    "name": "vemcogroup/nova-websockets",
     "description": "A Laravel Nova tool to integrate websockets into Nova.",
     "keywords": [
         "laravel",
