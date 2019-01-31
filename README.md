@@ -5,6 +5,10 @@
 
 This tool gives the possibiliy to create apps for [Laravel Websockets](https://github.com/beyondcode/laravel-websockets) and see analytics and debug.
 
+![screenshot 2019-01-31 at 12 56 20](https://user-images.githubusercontent.com/283184/52053383-7bbfdf80-2559-11e9-875a-63158b755f90.png)
+
+![screenshot 2019-01-31 at 12 56 35](https://user-images.githubusercontent.com/283184/52053417-8bd7bf00-2559-11e9-9bd5-383540ad28bb.png)
+
 ## Installation
 
 You can install the nova tool in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
