@@ -23,7 +23,7 @@ Remember that Laravel Websockets is required through this tool, so no need for `
 Next up, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
 
 ```php
-// in app/Providers/NovaServiceProvder.php
+// in app/Providers/NovaServiceProvider.php
 
 // ...
 
@@ -43,4 +43,17 @@ php artisan migrate
 
 ## Usage
 
-You can now use the tool via the new menu item called "Websockets" 
+You can now use the tool via the new menu item called "Websockets"
+ 
+If you want websockets to use the apps you create via this tool, change the `app_provider` in `config\websockets.php` to use the tools SocketProvider  
+
+```php
+'app_provider' => \Vemcogroup\Websockets\SocketProvider::class,
+```
+
+To use the Analytics/Debug menu item to analyse your websocket connections you have to change `path` on `config\websockets.php` to use the same path
+
+```php
+'path' => 'sockets',
+``` 
+
